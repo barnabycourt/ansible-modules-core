@@ -23,12 +23,12 @@ options:
         description:
             - Red Hat Network username
         required: False
-        default: null
+        default: None
     password:
         description:
             - Red Hat Network password
         required: False
-        default: null
+        default: None
     server_hostname:
         description:
             - Specify an alternative Red Hat Network server
@@ -53,12 +53,12 @@ options:
         description:
             - supply an activation key for use with registration
         required: False
-        default: null
+        default: None
     org_id:
         description:
             - Organisation ID to use in conjunction with activationkey
         required: False
-        default: null
+        default: None
         version_added: "2.0"
     pool:
         description:
